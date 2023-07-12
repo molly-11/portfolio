@@ -1,10 +1,14 @@
+* {
+  margin: 0;
+}
+
 .navbar {
   display: block;
+  margin: 10px 20px;
 }
-.navbar div {
+.navbar .logoDiv {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
   width: 100%;
@@ -13,10 +17,34 @@
 #navList {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-end;
   gap: 20px;
 }
 #navList li {
   list-style: none;
+}
+
+#landingDiv {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/profilelanding.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+#landingDiv img {
+  max-width: 250px;
+  border-radius: 50%;
+  border: 2px solid #292929;
+  box-shadow: #292929;
+}
+
+#introP {
+  max-width: 600px;
+  color: #292929;
 }/*# sourceMappingURL=LandingPage.css.map */
