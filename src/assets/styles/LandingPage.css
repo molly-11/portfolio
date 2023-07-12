@@ -1,0 +1,22 @@
+.navbar {
+  display: block;
+}
+.navbar div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#navList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+#navList li {
+  list-style: none;
+}/*# sourceMappingURL=LandingPage.css.map */
