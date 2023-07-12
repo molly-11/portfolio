@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <CreateLandingPage/>
-      <h1>Portfolio</h1>
+      
       
     </>
   )
