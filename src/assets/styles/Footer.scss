@@ -34,6 +34,12 @@
   font-style: italic;
 }
 
+#footerLogo{
+  width: 70px;
+  height: 70px;
+
+}
+
 @media only screen and (max-width: 600px) {
   #footerTop {
     flex-direction: column !important;

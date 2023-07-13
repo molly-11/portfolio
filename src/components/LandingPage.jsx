@@ -1,15 +1,16 @@
 import "../assets/styles/LandingPage.css";
+import {Link} from "react-router-dom";
 
 function CreateLandingPage() {
   return (
     <>
       <nav id="home">
-        <div className="logoDiv">Logo</div>
+        <img className="logoDiv" src="src/assets/images/logo.svg"/>
         <div id="navList">
           
-              <a href="">ABOUT</a>
+              <Link to={"/about"}>ABOUT</Link>
             
-              <a href="">PROJECTS</a>
+              <a href="#projectsDiv">PROJECTS</a>
             
               <a href="">CONTACT</a>
             

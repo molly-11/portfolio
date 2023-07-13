@@ -1,13 +1,15 @@
 import "../assets/styles/Footer.css";
+import {Link} from "react-router-dom";
 
 function CreateFooter() {
   return (
     <footer id="footer">
       <div id="footerTop">
       <div id="footerText">
-        <p>Logo</p>
+        <img id="footerLogo"src="src/assets/images/logo3.png"/>
+        
         <button type="button" className="btn">
-          <a href="#home">HOME</a>
+        <Link to={"/about"}>ABOUT</Link>
         </button>
         <button type="button" className="btn">
           ABOUT
