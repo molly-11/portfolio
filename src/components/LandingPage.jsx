@@ -3,15 +3,16 @@ import "../assets/styles/LandingPage.css";
 function CreateLandingPage() {
   return (
     <>
-      <nav className="navbar">
-        <div className="logoDiv">
-          <div>Logo</div>
-          <div>
-            <ul id="navList">
-              <li>Projects</li>
-              <li>Contact</li>
-            </ul>
-          </div>
+      <nav id="home">
+        <div className="logoDiv">Logo</div>
+        <div id="navList">
+          
+              <a href="">ABOUT</a>
+            
+              <a href="">PROJECTS</a>
+            
+              <a href="">CONTACT</a>
+            
         </div>
       </nav>
       <div id="landingDiv">
@@ -24,7 +25,6 @@ function CreateLandingPage() {
             entertaining user experience.
           </p>
           <div className="iconsDiv">
-            
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"

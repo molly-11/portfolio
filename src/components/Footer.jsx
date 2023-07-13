@@ -7,7 +7,7 @@ function CreateFooter() {
       <div id="footerText">
         <p>Logo</p>
         <button type="button" className="btn">
-          HOME
+          <a href="#home">HOME</a>
         </button>
         <button type="button" className="btn">
           ABOUT

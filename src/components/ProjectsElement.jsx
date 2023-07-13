@@ -2,7 +2,7 @@ import { useState } from "react";
 import CreateProjectCard from "./ProjectCards";
 import "../assets/styles/ProjectCards.css";
 
-import CreateFooter from "./Footer";
+
 
 function CreateProjectElement() {
   const [projects, setProjects] = useState([
@@ -38,7 +38,7 @@ function CreateProjectElement() {
   return (
     <>
       <div id="projectsDiv">
-        <h3>My Projects</h3>
+        <h3><span className="greenline">My P</span>rojects</h3>
         <div id="projectscontainer">
           <CreateProjectCard projects={projects} />
         </div>

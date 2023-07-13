@@ -6,7 +6,8 @@
   width: 100%;
   margin-top: 60px;
   padding: 30px;
-  background-color: #bfc022;
+  // background-color: #bfc022;
+  background-color: #eaccc2;
 }
 
 #footerTop {
@@ -15,18 +16,30 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-
-
 }
 
-  #footerText {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 30%;
+#footerText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  a {
+    color: inherit;
+    text-decoration: inherit;
   }
+}
 
 #footerBottom {
   font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  #footerTop {
+    flex-direction: column !important;
+    margin-bottom: 20px;
+  }
+  #footerText {
+    width: 100% !important;
+  }
 }
