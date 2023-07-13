@@ -23,7 +23,7 @@ function CreateLandingPage() {
             worlds of logic and creative design to make engaging and
             entertaining user experience.
           </p>
-          <div id="iconsDiv">
+          <div className="iconsDiv">
             
             <svg
               xmlns="http://www.w3.org/2000/svg"

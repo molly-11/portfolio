@@ -18,10 +18,13 @@ function CreateSkillsPart() {
 
   return (
     <div id="skillsDiv">
+      <div id="skillsDiv2">
       <h3>My Skills</h3>
       <div id="skillscontainer">
         <CreateSkillCard skills={skills} />
       </div>
+      </div>
+      
     </div>
   );
 }

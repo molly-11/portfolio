@@ -50,7 +50,7 @@
   color: #292929;
 }
 
-#iconsDiv {
+.iconsDiv {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
