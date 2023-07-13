@@ -1,7 +1,30 @@
 #footer {
-  display: block;
-  position: relative;
-  top: 250px;
-  margin: 60px;
-  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #bfc022;
+}
+
+#footerTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#footerText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+#footerBottom {
+  font-style: italic;
 }/*# sourceMappingURL=Footer.css.map */
