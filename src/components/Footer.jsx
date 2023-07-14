@@ -9,10 +9,10 @@ function CreateFooter() {
         <img id="footerLogo"src="src/assets/images/logo3.png"/>
         
         <button type="button" className="btn">
-        <Link to={"/about"}>ABOUT</Link>
+        <a href="#home">HOME</a>
         </button>
         <button type="button" className="btn">
-          ABOUT
+          <Link to={"/about"}>ABOUT</Link>
         </button>
         <button type="button" className="btn">
           CONTACT

@@ -1,7 +1,7 @@
-#skillsDiv {
+.skillsDiv {
   width: 100%;
   display: block;
-  margin:100px 0;
+  margin: 100px 0;
   /*
   display: flex;
   flex-direction: column;
@@ -14,14 +14,13 @@
     padding: 0 200px;
     margin: 30px 0;
   }
-  .greenline{
+  .greenline {
     text-decoration: overline;
-    text-decoration-color: #BFC022;
+    text-decoration-color: #bfc022;
     text-decoration-thickness: 4px;
   }
-
 }
-#skillsDiv2 {
+.skillsDiv2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +37,7 @@
   border: none !important;
 }
 
-#skillscontainer {
+.skillscontainer {
   max-width: 850px;
   display: flex;
   flex-direction: row;
@@ -46,10 +45,11 @@
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 80px;
+  
 }
 
 @media only screen and (max-width: 900px) {
-  #skillscontainer {
+  .skillscontainer {
     max-width: 350px !important;
   }
   .card-img-top {
@@ -58,10 +58,10 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #skillsDiv {
+  .skillsDiv {
     margin: 30px 0px !important;
   }
-  #skillscontainer {
+  .skillscontainer {
     gap: 40px !important;
   }
   h3 {
@@ -69,5 +69,43 @@
   }
   .card-img-top {
     max-width: 50px !important;
+  }
+}
+
+#profileimg2 {
+  max-width: 200px;
+}
+
+.accordion-content {
+  max-width: 400px;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: row ;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 80px;
+  p{
+    max-width: 600px;
+  }
+}
+
+.skills2{
+ gap:60px
+}
+
+.bi{
+ 
+  width: 25px;
+  height: 25px;
+  font-weight: 900;
+}
+
+.languages{
+  img{
+    border:1px solid grey;
+    border-radius: 0;
   }
 }
