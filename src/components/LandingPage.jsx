@@ -17,7 +17,7 @@ function CreateLandingPage() {
         </div>
       </nav>
       <div id="landingDiv">
-        <img src="src\assets\images\profile.jpg" alt="Prolife image" />
+        <img src="src\assets\images\profile3.jpg" alt="Prolife image" />
         <div>
           <h3>Hello! I'm Edit.</h3>
           <p id="introP">
