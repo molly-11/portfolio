@@ -8,30 +8,31 @@ function CreateProjectElement() {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      name: "Weather App",
-      desc: "App created with React, fetching data from https://www.weatherapi.com/. Styling with Material UI and CSS.",
-      img: "src/assets/images/weather.JPG",
-      tech: ["REACT", "MATERIAL UI", "CSS"],
+      name: "Web shop",
+      desc: "Frontend of a webshop, created with React. Using react hooks: useState, useEffect, useContext. Context provider makes the shopping cart data update easier. Style created with CSS, aims to get a minimalist user friendly design",
+      img: "src/assets/images/webshop.JPG",
+      tech: ["REACT", "Vite", "CSS"],
       github: "",
       demo: "http://localhost:5174/",
     },
     {
       id: 2,
-      name: "Web shop",
-      desc: "App created with React, fetching data from https://www.weatherapi.com/. Styling with Material UI and CSS.",
+      name: "Weather App",
+      desc: "App created with React, fetching data from https://www.weatherapi.com/. Style created with Material UI and CSS. The app is providing current and hourly weather data of today and 3 days forecast of the requested city",
       img: "src/assets/images/weather.JPG",
-      tech: ["REACT", "Bootstrap", "Vite"],
+      tech: ["REACT", "MATERIAL UI", "CSS"],
       github: "",
       demo: "http://localhost:5174/",
     },
+
     {
       id: 3,
-      name: "To do list",
-      desc: "App created with React, fetching data from https://www.weatherapi.com/. Styling with Material UI and CSS.",
-      img: "src/assets/images/weather.JPG",
-      tech: ["Vanilla JS", "SCSS", "Vite"],
+      name: "Webpage of an artist",
+      desc: "More details coming soon",
+      img: "src/assets/images/art.JPG",
+      tech: ["React", "SCSS", "Vite"],
       github: "",
-      demo: "http://localhost:5174/",
+      demo: "",
     },
   ]);
 

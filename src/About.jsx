@@ -2,7 +2,7 @@ import CreateSkillCard from "./components/SkillCards";
 import "./assets/styles/Skills.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import CreateFooter from "./components/Footer";
+
 
 function About() {
   const [skills, setSkills] = useState([
@@ -15,7 +15,7 @@ function About() {
     { id: 7, name: "Material UI", url: "src/assets/images/materialui.svg" },
     { id: 8, name: "Vite", url: "src/assets/images/vite.svg" },
     { id: 9, name: "VS Code", url: "src/assets/images/vscode.svg" },
-    { id: 10, name: "Mongo DB", url: "src/assets/images/mongodb.svg" },
+    { id: 10, name: "Firebase", url: "src/assets/images/firebase.svg" },
   ]);
 
   const [otherSkills, setOtherSkills] = useState([

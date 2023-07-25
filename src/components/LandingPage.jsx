@@ -12,7 +12,7 @@ function CreateLandingPage() {
             
               <a href="#projectsDiv">PROJECTS</a>
             
-              <a href="">CONTACT</a>
+              <Link to={"/contact"}>CONTACT</Link>
             
         </div>
       </nav>
