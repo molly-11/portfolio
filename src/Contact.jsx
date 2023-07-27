@@ -36,7 +36,7 @@ function Contact() {
   };
 
   return (
-    <>
+    <div id="contactSection">
       <nav>
         <Link to={"/"}>HOME</Link>
       </nav>
@@ -92,10 +92,11 @@ function Contact() {
           ref={repatchaRef}
           sitekey="6Ld3UVInAAAAAOSf3-M3TTbPROYYPVZjycvSZ3Bp"
           onChange={updateRecaptchaToken}
+          required
         />
         <button>Send</button>
       </form>
-    </>
+    </div>
   );
 }
 

@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+  border-bottom: 2px solid grey;
+}
+nav .logoDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+}
+nav a {
+  font-size: 20px;
+  color: inherit;
+  text-decoration: inherit;
+}/*# sourceMappingURL=Navbar.css.map */

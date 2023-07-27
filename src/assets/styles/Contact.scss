@@ -1,3 +1,17 @@
+#contactSection{
+  width: 100%;
+
+  background-image: url("../images/profilelanding.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #contactForm{
   display: flex;
   flex-direction: column;
@@ -9,13 +23,38 @@
   input{
     width: 400px;
   };
+  button{
+    width: 80px;
+  }
   
 }
 
 #messageContact{
-  height: 400px;
+  height: 200px;
   text-align:justify;
   
 }
 
+@media only screen and (max-width: 600px) {
+  #contactSection {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+  }
+
+  nav{
+    background-color: #EACCC2;
+  }
+  button{
+    background-color: #BFC022;
+  }
+
+  #contactForm{
+    width: 300px;
+
+    input{
+      width: 280px;
+    }
+  }
+}
 

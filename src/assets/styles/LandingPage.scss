@@ -1,41 +1,7 @@
 * {
   margin: 0;
 }
-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 40px;
-  //box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
-  border-bottom: 2px solid grey;
 
-  .logoDiv {
-    display: flex;
-    flex-direction: row;
-
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 100px;
-    height: 100px;
-  }
-  a{
-    font-size: 20px;
-    color: inherit;
-    text-decoration: inherit;
-  }
-}
-
-#navList {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-
-  gap: 20px;
-
-
-}
 
 #landingDiv {
   width: 100%;
@@ -54,9 +20,9 @@ nav {
   margin: 2px 0 !important;
 
   img {
-  width: 230px;
-  height: 270px;
-  object-fit:cover;
+    width: 230px;
+    height: 270px;
+    object-fit: cover;
     border-radius: 25px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
   }
@@ -72,8 +38,6 @@ nav {
   flex-direction: row;
   align-items: flex-start;
   gap: 20px;
-
-
 }
 
 @media only screen and (max-width: 1000px) {
@@ -99,5 +63,8 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+  #introP {
+    max-width: 280px;
   }
 }

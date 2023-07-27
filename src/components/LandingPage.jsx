@@ -1,21 +1,10 @@
 import "../assets/styles/LandingPage.css";
 import {Link} from "react-router-dom";
 
-function CreateLandingPage() {
+function LandingPage() {
   return (
     <>
-      <nav id="home">
-        <img className="logoDiv" src="src/assets/images/logo.svg"/>
-        <div id="navList">
-          
-              <Link to={"/about"}>ABOUT</Link>
-            
-              <a href="#projectsDiv">PROJECTS</a>
-            
-              <Link to={"/contact"}>CONTACT</Link>
-            
-        </div>
-      </nav>
+
       <div id="landingDiv">
         <img src="src\assets\images\profile3.jpg" alt="Prolife image" />
         <div>
@@ -53,4 +42,4 @@ function CreateLandingPage() {
   );
 }
 
-export default CreateLandingPage;
+export default LandingPage;

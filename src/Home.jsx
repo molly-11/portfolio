@@ -1,5 +1,6 @@
 import CreateFooter from "./components/Footer";
-import CreateLandingPage from "./components/LandingPage";
+import LandingPage from "./components/LandingPage";
+import Navbar from "./components/Navbar";
 import CreateProjectElement from "./components/ProjectsElement";
 import CreateSkillsPart from "./components/SkillsElement";
 
@@ -7,7 +8,8 @@ import CreateSkillsPart from "./components/SkillsElement";
 function Home(){
 
   return(<>
-  <CreateLandingPage/>
+  <Navbar/>
+  <LandingPage/>
   <CreateSkillsPart/>
   <CreateProjectElement/>
   <CreateFooter /></>)
