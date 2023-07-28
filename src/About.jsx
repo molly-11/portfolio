@@ -47,7 +47,7 @@ function About() {
         <img src="src/assets/images/profile2.jpg" alt="" id="profileimg2" />
 
         <p id="introtext">
-          I'm an enthusiastic and detail oriented front-end developer seeking
+          I'm an enthusiastic and detail oriented junior front-end developer seeking
           for position where I can use my skills in coding, troubleshooting
           complex problems, and assisting in the timely completion of projects.
           I'm highly motivated to deliver engaging and outstanding user

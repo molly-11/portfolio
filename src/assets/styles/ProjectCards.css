@@ -89,6 +89,34 @@
     width: 250px !important;
     height: 150px !important;
   }
+  .project-descr {
+    width: 230px;
+  }
+  .project-descr h5 {
+    font-size: 16px;
+  }
+  .project-descr p {
+    font-size: 12px;
+  }
+  .tech-used {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .tech-used div span {
+    font-size: 12px;
+  }
+  .project-links {
+    width: 230px;
+  }
+  .project-links a {
+    font-size: 12px;
+  }
+  .project-links a svg {
+    width: 18px !important;
+  }
 }
 @media only screen and (max-width: 400px) {
   .project-card {

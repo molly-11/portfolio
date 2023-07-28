@@ -9,7 +9,7 @@ function CreateProjectElement() {
     {
       id: 1,
       name: "Web shop",
-      desc: "Frontend of a webshop, created with React. Using react hooks: useState, useEffect, useContext. Context provider makes the shopping cart data update easier. Style created with CSS, aims to get a minimalist user friendly design",
+      desc: "Frontend of a webshop, created with React, using react hooks: useState, useEffect, useContext. Context provider makes the shopping cart data update easier.  Responsive hamburger menu created with styled-components. Style created with CSS, aims to get a minimalist user friendly design.",
       img: "src/assets/images/webshop.JPG",
       tech: ["REACT", "Vite", "CSS"],
       github: "",

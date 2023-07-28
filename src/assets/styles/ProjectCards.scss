@@ -92,6 +92,41 @@
       height: 150px !important;
     }
   }
+
+  .project-descr{
+ width: 230px;
+    h5{
+      font-size: 16px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+
+  .tech-used{
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    div{
+     
+
+      span{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .project-links{
+    width: 230px;
+    a{  font-size: 12px;
+    svg{
+      width: 18px !important;
+    }}
+  }
+
+
 }
 
 @media only screen and (max-width: 400px) {
