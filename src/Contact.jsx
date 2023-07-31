@@ -7,7 +7,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 function Contact() {
   const [recaptchaToken, setRecaptchaToken] = useState("");
   const form = useRef();
-  const recaptchaKey = "6Ld3UVInAAAAAKHd8IVXiRrNO85gC7viX6QAlCJj";
+  
   const repatchaRef = useRef();
 
   const sendEmail = (e) => {

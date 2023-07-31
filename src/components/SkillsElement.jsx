@@ -3,7 +3,7 @@ import "../assets/styles/Skills.css";
 import CreateSkillCard from "./SkillCards";
 
 function CreateSkillsPart() {
-  const [skills, setSkills] = useState([
+  const skills  = [
     { id: 1, name: "HTML", url: "src/assets/images/html5.svg" },
     { id: 2, name: "CSS", url: "src/assets/images/css3.svg" },
     { id: 3, name: "Javascript", url: "src/assets/images/javascript.svg" },
@@ -14,7 +14,7 @@ function CreateSkillsPart() {
     { id: 8, name: "Vite", url: "src/assets/images/vite.svg" },
     { id: 9, name: "VS Code", url: "src/assets/images/vscode.svg" },
     { id: 10, name: "Firebase", url: "src/assets/images/firebase.svg" },
-  ]);
+  ];
 
   return (
     <div className="skillsDiv">

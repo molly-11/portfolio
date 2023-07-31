@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 
 function About() {
-  const [skills, setSkills] = useState([
+  const skills = [
     { id: 1, name: "HTML", url: "src/assets/images/html5.svg" },
     { id: 2, name: "CSS", url: "src/assets/images/css3.svg" },
     { id: 3, name: "Javascript", url: "src/assets/images/javascript.svg" },
@@ -16,25 +16,25 @@ function About() {
     { id: 8, name: "Vite", url: "src/assets/images/vite.svg" },
     { id: 9, name: "VS Code", url: "src/assets/images/vscode.svg" },
     { id: 10, name: "Firebase", url: "src/assets/images/firebase.svg" },
-  ]);
+  ];
 
-  const [otherSkills, setOtherSkills] = useState([
+  const otherSkills = [
     { id: 11, name: "Java", url: "src/assets/images/java.svg" },
     { id: 12, name: "MySQL", url: "src/assets/images/mysql.svg" },
     { id: 13, name: "Android", url: "src/assets/images/android.svg" },
-  ]);
-  const [otherSkills2, setOtherSkills2] = useState([
+  ];
+  const otherSkills2 = [
     { id: 21, name: "Jira", url: "src/assets/images/jira.svg" },
     { id: 22, name: "Micro Focus ALM", url: "src/assets/images/alm.png" },
     { id: 23, name: "SAP", url: "src/assets/images/sap.svg" },
-  ]);
+  ];
 
-  const [languages, setLanguages] = useState([
+  const languages = [
     { id: 31, name: "Hungarian", url: "src/assets/images/hu.svg" },
     { id: 32, name: "English", url: "src/assets/images/gb.svg" },
     { id: 33, name: "Finnish", url: "src/assets/images/fi.svg" },
     { id: 34, name: "German", url: "src/assets/images/de.svg" },
-  ]);
+  ];
 
   const [isActive, setIsActive] = useState(true);
   const [isActive2, setIsActive2] = useState(false);

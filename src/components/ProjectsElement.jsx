@@ -5,15 +5,15 @@ import "../assets/styles/ProjectCards.css";
 
 
 function CreateProjectElement() {
-  const [projects, setProjects] = useState([
+  const projects = [
     {
       id: 1,
       name: "Web shop",
       desc: "Frontend of a webshop, created with React, using react hooks: useState, useEffect, useContext. Context provider makes the shopping cart data update easier.  Responsive hamburger menu created with styled-components. Style created with CSS, aims to get a minimalist user friendly design.",
       img: "src/assets/images/webshop.JPG",
-      tech: ["REACT", "Vite", "CSS"],
-      github: "",
-      demo: "http://localhost:5174/",
+      tech: ["REACT","JS", "Vite", "CSS"],
+      github: "https://github.com/molly-11/webshop-w-react",
+      demo: "",
     },
     {
       id: 2,
@@ -21,8 +21,8 @@ function CreateProjectElement() {
       desc: "App created with React, fetching data from https://www.weatherapi.com/. Style created with Material UI and CSS. The app is providing current and hourly weather data of today and 3 days forecast of the requested city",
       img: "src/assets/images/weather.JPG",
       tech: ["REACT", "MATERIAL UI", "CSS"],
-      github: "",
-      demo: "http://localhost:5174/",
+      github: "https://github.com/molly-11/weather_app_react",
+      demo: "",
     },
 
     {
@@ -30,11 +30,11 @@ function CreateProjectElement() {
       name: "Webpage of an artist",
       desc: "More details coming soon",
       img: "src/assets/images/art.JPG",
-      tech: ["React", "SCSS", "Vite"],
+      tech: ["React", "Firebase", "Vite"],
       github: "",
       demo: "",
     },
-  ]);
+  ];
 
   return (
     <>

@@ -61,4 +61,8 @@
   #introP {
     max-width: 280px;
   }
+}
+a {
+  color: inherit !important;
+  text-decoration: inherit;
 }/*# sourceMappingURL=LandingPage.css.map */
