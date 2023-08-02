@@ -6,6 +6,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 function Contact() {
   const [recaptchaToken, setRecaptchaToken] = useState("");
+  const [isUserRobot, setUserValid] = useState(true);
   const form = useRef();
   
   const repatchaRef = useRef();
@@ -33,6 +34,7 @@ function Contact() {
 
   const updateRecaptchaToken = (token) => {
     setRecaptchaToken(token);
+    setUserValid(false);
   };
 
   return (
@@ -94,7 +96,7 @@ function Contact() {
           onChange={updateRecaptchaToken}
           required
         />
-        <button>Send</button>
+        <button disabled={isUserRobot}>Send</button>
       </form>
     </div>
   );
