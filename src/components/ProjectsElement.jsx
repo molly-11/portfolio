@@ -22,7 +22,7 @@ function CreateProjectElement() {
       img: "./images/weather.JPG",
       tech: ["REACT", "MATERIAL UI", "CSS"],
       github: "https://github.com/molly-11/weather_app_react",
-      demo: "",
+      demo: "https://weather-app-react-snowy.vercel.app/",
     },
 
     {
