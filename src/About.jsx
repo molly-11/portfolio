@@ -6,34 +6,34 @@ import { Link } from "react-router-dom";
 
 function About() {
   const skills = [
-    { id: 1, name: "HTML", url: "src/assets/images/html5.svg" },
-    { id: 2, name: "CSS", url: "src/assets/images/css3.svg" },
-    { id: 3, name: "Javascript", url: "src/assets/images/javascript.svg" },
-    { id: 4, name: "React", url: "src/assets/images/react.svg" },
-    { id: 5, name: "Sass", url: "src/assets/images/sass.svg" },
-    { id: 6, name: "Bootstrap", url: "src/assets/images/bootstrap.svg" },
-    { id: 7, name: "Material UI", url: "src/assets/images/materialui.svg" },
-    { id: 8, name: "Vite", url: "src/assets/images/vite.svg" },
-    { id: 9, name: "VS Code", url: "src/assets/images/vscode.svg" },
-    { id: 10, name: "Firebase", url: "src/assets/images/firebase.svg" },
+    { id: 1, name: "HTML", url: "./images/html5.svg" },
+    { id: 2, name: "CSS", url: "./images/css3.svg" },
+    { id: 3, name: "Javascript", url: "./images/javascript.svg" },
+    { id: 4, name: "React", url: "./images/react.svg" },
+    { id: 5, name: "Sass", url: "./images/sass.svg" },
+    { id: 6, name: "Bootstrap", url: "./images/bootstrap.svg" },
+    { id: 7, name: "Material UI", url: "./images/materialui.svg" },
+    { id: 8, name: "Vite", url: "./images/vite.svg" },
+    { id: 9, name: "VS Code", url: "./images/vscode.svg" },
+    { id: 10, name: "Firebase", url: "./images/firebase.svg" },
   ];
 
   const otherSkills = [
-    { id: 11, name: "Java", url: "src/assets/images/java.svg" },
-    { id: 12, name: "MySQL", url: "src/assets/images/mysql.svg" },
-    { id: 13, name: "Android", url: "src/assets/images/android.svg" },
+    { id: 11, name: "Java", url: "./images/java.svg" },
+    { id: 12, name: "MySQL", url: "./images/mysql.svg" },
+    { id: 13, name: "Android", url: "./images/android.svg" },
   ];
   const otherSkills2 = [
-    { id: 21, name: "Jira", url: "src/assets/images/jira.svg" },
-    { id: 22, name: "Micro Focus ALM", url: "src/assets/images/alm.png" },
-    { id: 23, name: "SAP", url: "src/assets/images/sap.svg" },
+    { id: 21, name: "Jira", url: "./images/jira.svg" },
+    { id: 22, name: "Micro Focus ALM", url: "./images/alm.png" },
+    { id: 23, name: "SAP", url: "./images/sap.svg" },
   ];
 
   const languages = [
-    { id: 31, name: "Hungarian", url: "src/assets/images/hu.svg" },
-    { id: 32, name: "English", url: "src/assets/images/gb.svg" },
-    { id: 33, name: "Finnish", url: "src/assets/images/fi.svg" },
-    { id: 34, name: "German", url: "src/assets/images/de.svg" },
+    { id: 31, name: "Hungarian", url: "./images/hu.svg" },
+    { id: 32, name: "English", url: "./images/gb.svg" },
+    { id: 33, name: "Finnish", url: "./images/fi.svg" },
+    { id: 34, name: "German", url: "./images/de.svg" },
   ];
 
   const [isActive, setIsActive] = useState(true);
@@ -44,7 +44,7 @@ function About() {
     <>
       <div id="introduction">
         <nav><Link to={"/"}>HOME</Link></nav>
-        <img src="src/assets/images/profile2.jpg" alt="" id="profileimg2" />
+        <img src="./images/profile2.jpg" alt="" id="profileimg2" />
 
         <p id="introtext">
           I'm an enthusiastic and detail oriented junior front-end developer seeking

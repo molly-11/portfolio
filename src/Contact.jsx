@@ -42,7 +42,7 @@ function Contact() {
       <nav>
         <Link to={"/"}>HOME</Link>
       </nav>
-      <h2 id="contactHeader">Send me an email or contact via LinkedIn</h2>
+      <h2 id="contactHeader">Send me an email or contact via <a href="https://www.linkedin.com/in/edit-elmeczi"> LinkedIn </a></h2>
       <form
         ref={form}
         action="submit"
@@ -62,7 +62,7 @@ function Contact() {
         />
 
         <input
-          type="text"
+          type="email"
           id="emailContact"
           placeholder="test@email.com"
           name="user_email"

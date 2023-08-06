@@ -4,16 +4,16 @@ import CreateSkillCard from "./SkillCards";
 
 function CreateSkillsPart() {
   const skills  = [
-    { id: 1, name: "HTML", url: "src/assets/images/html5.svg" },
-    { id: 2, name: "CSS", url: "src/assets/images/css3.svg" },
-    { id: 3, name: "Javascript", url: "src/assets/images/javascript.svg" },
-    { id: 4, name: "React", url: "src/assets/images/react.svg" },
-    { id: 5, name: "Sass", url: "src/assets/images/sass.svg" },
-    { id: 6, name: "Bootstrap", url: "src/assets/images/bootstrap.svg" },
-    { id: 7, name: "Material UI", url: "src/assets/images/materialui.svg" },
-    { id: 8, name: "Vite", url: "src/assets/images/vite.svg" },
-    { id: 9, name: "VS Code", url: "src/assets/images/vscode.svg" },
-    { id: 10, name: "Firebase", url: "src/assets/images/firebase.svg" },
+    { id: 1, name: "HTML", url: "./images/html5.svg" },
+    { id: 2, name: "CSS", url: "./images/css3.svg" },
+    { id: 3, name: "Javascript", url: "./images/javascript.svg" },
+    { id: 4, name: "React", url: "./images/react.svg" },
+    { id: 5, name: "Sass", url: "./images/sass.svg" },
+    { id: 6, name: "Bootstrap", url: "./images/bootstrap.svg" },
+    { id: 7, name: "Material UI", url: "./images/materialui.svg" },
+    { id: 8, name: "Vite", url: "./images/vite.svg" },
+    { id: 9, name: "VS Code", url: "./images/vscode.svg" },
+    { id: 10, name: "Firebase", url: "./images/firebase.svg" },
   ];
 
   return (

@@ -6,7 +6,7 @@ function CreateFooter() {
     <footer id="footer">
       <div id="footerTop">
       <div id="footerText">
-        <img id="footerLogo"src="src/assets/images/logo3.svg"/>
+        <img id="footerLogo"src="./images/logo3.svg"/>
         
         <button type="button" className="btn">
         <a href="#home">HOME</a>
@@ -14,9 +14,7 @@ function CreateFooter() {
         <button type="button" className="btn">
           <Link to={"/about"}>ABOUT</Link>
         </button>
-        <button type="button" className="btn">
-          CONTACT
-        </button>
+        <Link to={"/contact"}>CONTACT</Link>
       </div>
 
       <div className="iconsDiv">

@@ -5,7 +5,7 @@ function LandingPage() {
   return (
     <>
       <div id="landingDiv">
-        <img src="src\assets\images\profile3.jpg" alt="Prolife image" />
+        <img src="./images/profile3.jpg" alt="Prolife image" />
         <div>
           <h3>Hello! I'm Edit.</h3>
           <p id="introP">
