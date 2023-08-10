@@ -14,7 +14,10 @@ function CreateFooter() {
         <button type="button" className="btn">
           <Link to={"/about"}>ABOUT</Link>
         </button>
+        <button type="button" className="btn">
         <Link to={"/contact"}>CONTACT</Link>
+        </button>
+        
       </div>
 
       <div className="iconsDiv">

@@ -68,7 +68,8 @@
 .project-links a {
   font-size: 20px;
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: underline;
+  gap: 5px;
 }
 .project-links a .bi {
   width: 28px;
@@ -113,6 +114,7 @@
   }
   .project-links a {
     font-size: 12px;
+    text-decoration: underline;
   }
   .project-links a svg {
     width: 18px !important;

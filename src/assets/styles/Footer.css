@@ -46,4 +46,7 @@
   #footerText {
     width: 100% !important;
   }
+  #footerText a {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=Footer.css.map */
