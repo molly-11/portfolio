@@ -12,8 +12,12 @@ function CreateSkillsPart() {
     { id: 6, name: "Bootstrap", url: "./images/bootstrap.svg" },
     { id: 7, name: "Material UI", url: "./images/materialui.svg" },
     { id: 8, name: "Vite", url: "./images/vite.svg" },
-    { id: 9, name: "VS Code", url: "./images/vscode.svg" },
+    { id: 9, name: "Github", url: "./images/github.svg" },
     { id: 10, name: "Firebase", url: "./images/firebase.svg" },
+    { id: 11, name: "Node JS", url: "./images/node.svg" },
+    { id: 12, name: "Express JS", url: "./images/express.svg" },
+    { id: 13, name: "Java", url: "./images/java.svg" },
+    { id: 14, name: "MySQL", url: "./images/mysql.svg" },
   ];
 
   return (

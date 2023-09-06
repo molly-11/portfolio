@@ -9,7 +9,7 @@ function LandingPage() {
         <div>
           <h3>Hello! I'm Edit.</h3>
           <p id="introP">
-            I'm a junior front-end developer based in Budapest. I love combining
+            I'm a junior front-end developer with back-end skills, based in Budapest. I love combining
             the worlds of logic and creative design to make engaging and
             entertaining user experience.
           </p>

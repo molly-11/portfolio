@@ -54,7 +54,7 @@ function Contact() {
         onSubmit={sendEmail}
         method="SEND"
       >
-        <h6>Provide your data here and send message</h6>
+        
 
         <input
           type="text"
